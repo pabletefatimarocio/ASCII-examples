@@ -1,4 +1,8 @@
 const art = require('ascii-art');
 
-console.log(art.style("Hello World", "red"));
-console.log(art.style('', 'white'));
+art.font( 'Hello world', 'Doom',  (err, renderer) => {
+  console.log(err || renderer)
+})
+
+//console.log(art.style("Hello World", "red"));
+//console.log(art.style('', 'white'));
