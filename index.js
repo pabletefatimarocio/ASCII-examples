@@ -4,14 +4,14 @@ const figlet = require('figlet');
     console.log(err || result)
 })*/
 
-figlet('Hola', {
+/*figlet('Hola', {
     font:'Ghost',
     horizontalLayout: 'default',
     verticalLayout:'default',
 
 }, (err, result) => {
   console.log(err || result);
-})
+})*/
 
 /*figlet.text(
     "Boo!",
@@ -31,3 +31,7 @@ figlet('Hola', {
       console.log(data);
     }
   );*/
+
+
+
+  
